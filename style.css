@@ -3,7 +3,7 @@ body {
   background: #0a0a0a;
   color: #eaeaea;
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
-  line-height: 1.95;
+  line-height: 1.7;
   letter-spacing: 0.02em;
 }
 
@@ -17,7 +17,7 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 500;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   letter-spacing: 0.05em;
 }
 
@@ -34,6 +34,7 @@ h1 {
   color: #ddd;
   margin-bottom: 60px;
   white-space: pre-line;
+  line-height: 1.8;
 }
 
 /* 区切り */
@@ -48,13 +49,14 @@ h1 {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  margin-top: 40px;
+  margin-top: 36px;
 }
 
 .answer {
   margin-top: 10px;
   color: #ccc;
   white-space: pre-line;
+  line-height: 1.68;
 }
 
 /* 画像 */
@@ -72,7 +74,7 @@ h1 {
 
 /* プロフィール */
 .profile {
-  margin-top: 90px;
+  margin-top: 80px;
   padding-top: 24px;
   border-top: 1px solid #333;
 }
