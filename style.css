@@ -1,130 +1,21 @@
-body {
-  margin: 0;
-  background: #0a0a0a;
-  color: #eaeaea;
-  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-}
+<div class="profile">
+  <div class="profile-content">
+    <div class="profile-image-circle">
+      <img src="tohru_kashiwagi.webp" alt="柏木透">
+    </div>
+    <div class="profile-details">
+      <div class="profile-name">柏木透（かしわぎ とおる）</div>
+      <div class="profile-text">ライター。文化や芸術に関する取材・執筆を行う。</div>
+    </div>
+  </div>
 
-.container {
-  max-width: 700px;
-  margin: 70px auto;
-  padding: 0 20px;
-}
-
-/* タイトル */
-h1 {
-  font-size: 28px;
-  font-weight: 500;
-  margin-bottom: 10px;
-  letter-spacing: 0.05em;
-}
-
-/* 導入 */
-.intro {
-  font-size: 16px;
-  color: #ddd;
-  margin-bottom: 50px;
-  white-space: pre-line;
-  line-height: 1.68;
-}
-
-/* 区切り */
-.divider {
-  height: 1px;
-  background: #333;
-  margin: 50px 0;
-}
-
-/* Q&Aセクション */
-.question {
-  font-size: 14px;
-  font-weight: bold;
-  color: #fff;
-  margin-top: 32px;
-  margin-bottom: 0;
-}
-
-.answer {
-  margin-top: 4px; /* 名前との間隔 */
-  margin-bottom: 0;
-  color: #ccc;
-  white-space: pre-line;
-  line-height: 1.5; /* 行間を詰め気味に */
-}
-
-/* 本文内の画像 */
-.image-block {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.image-block img {
-  width: 100%;
-  height: auto;
-  display: block;
-  opacity: 0.8;
-}
-
-/* プロフィール共通設定 */
-.profile {
-  margin-top: 80px;
-  padding-top: 24px;
-  border-top: 1px solid #222;
-}
-
-/* 柏木透のプロフィール表示 */
-.profile-content {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 20px; /* 安倍さんとの間隔 */
-}
-
-/* 安倍まりあのプロフィールリンク */
-.profile-link-item {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  text-decoration: none;
-  background: #151515; /* わずかに背景を明るく */
-  padding: 12px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
-}
-
-.profile-link-item:hover {
-  background: #222;
-}
-
-/* プロフィール画像 */
-.profile-image img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 1px solid #333;
-  display: block;
-}
-
-/* プロフィール内の名前とテキスト */
-.profile-name {
-  font-size: 15px;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 2px;
-}
-
-.profile-name span {
-  font-weight: normal;
-  color: #666;
-  margin-left: 4px;
-}
-
-.profile-text {
-  font-size: 13px;
-  color: #aaa;
-  margin: 0;
-  line-height: 1.4;
-}
+  <a href="maria_profile.html" class="profile-link-item">
+    <div class="profile-image-rect">
+      <img src="maria_abe_thumb.webp" alt="安倍まりあ">
+    </div>
+    <div class="profile-details">
+      <div class="profile-name">安倍まりあ プロフィール <span>&rsaquo;</span></div>
+      <div class="profile-text">本連載の著者。現代美術家としての活動詳細はこちら。</div>
+    </div>
+  </a>
+</div>
