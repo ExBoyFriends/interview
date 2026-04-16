@@ -3,21 +3,21 @@ body {
   background: #0a0a0a;
   color: #eaeaea;
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
-  line-height: 1.65;
+  line-height: 1.6;
   letter-spacing: 0.02em;
 }
 
 .container {
   max-width: 700px;
-  margin: 80px auto;
+  margin: 70px auto;
   padding: 0 20px;
 }
 
 /* タイトル */
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 500;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   letter-spacing: 0.05em;
 }
 
@@ -25,23 +25,23 @@ h1 {
 .subtitle {
   font-size: 13px;
   color: #aaa;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 /* 導入 */
 .intro {
   font-size: 16px;
   color: #ddd;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   white-space: pre-line;
-  line-height: 1.72;
+  line-height: 1.68;
 }
 
 /* 区切り */
 .divider {
   height: 1px;
   background: #333;
-  margin: 60px 0;
+  margin: 50px 0;
 }
 
 /* Q&A */
@@ -49,39 +49,39 @@ h1 {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  margin-top: 32px;
+  margin-top: 26px;
 }
 
 .answer {
-  margin-top: 4px;
+  margin-top: 2px; /* ほぼゼロ */
   color: #ccc;
   white-space: pre-line;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 /* 画像 */
 .image-block {
-  margin-top: 36px;
-  margin-bottom: 56px;
+  margin-top: 28px;
+  margin-bottom: 48px;
 }
 
 .image-block img {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 0.92;
+  opacity: 0.9;
 }
 
 /* プロフィール */
 .profile {
-  margin-top: 70px;
-  padding-top: 20px;
+  margin-top: 60px;
+  padding-top: 16px;
   border-top: 1px solid #333;
 }
 
 .profile-name {
   font-size: 15px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .profile-text {
