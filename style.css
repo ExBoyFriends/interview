@@ -21,13 +21,6 @@ h1 {
   letter-spacing: 0.05em;
 }
 
-/* サブタイトル */
-.subtitle {
-  font-size: 13px;
-  color: #aaa;
-  margin-bottom: 32px;
-}
-
 /* 導入 */
 .intro {
   font-size: 16px;
@@ -44,44 +37,47 @@ h1 {
   margin: 50px 0;
 }
 
-/* Q&A */
+/* Q&Aセクションの修正ポイント */
+
 .question {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  margin-top: 26px;
+  margin-top: 32px;    /* 発言者ごとの塊を分けるための上余白 */
+  margin-bottom: 0;   /* ★名前のすぐ下に本文が来るようゼロに設定 */
 }
 
 .answer {
-  margin-top: 2px; /* ほぼゼロ */
+  margin-top: 4px;    /* ★名前と本文の間の隙間を極小に（好みに合わせ0〜5pxで調整） */
+  margin-bottom: 0;   /* ★段落自体の下の余白を消去 */
   color: #ccc;
   white-space: pre-line;
-  line-height: 1.55;
+  line-height: 1.5;   /* ★行間を少し詰め気味に（1.5〜1.6が読みやすいです） */
 }
 
 /* 画像 */
 .image-block {
-  margin-top: 28px;
-  margin-bottom: 48px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .image-block img {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* プロフィール */
 .profile {
-  margin-top: 60px;
+  margin-top: 80px;
   padding-top: 16px;
   border-top: 1px solid #333;
 }
 
 .profile-name {
   font-size: 15px;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .profile-text {
