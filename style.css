@@ -37,22 +37,21 @@ h1 {
   margin: 50px 0;
 }
 
-/* Q&Aセクションの修正ポイント */
-
+/* Q&Aセクション */
 .question {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  margin-top: 32px;    /* 発言者ごとの塊を分けるための上余白 */
-  margin-bottom: 0;   /* ★名前のすぐ下に本文が来るようゼロに設定 */
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .answer {
-  margin-top: 4px;    /* ★名前と本文の間の隙間を極小に（好みに合わせ0〜5pxで調整） */
-  margin-bottom: 0;   /* ★段落自体の下の余白を消去 */
+  margin-top: 4px;
+  margin-bottom: 0;
   color: #ccc;
   white-space: pre-line;
-  line-height: 1.5;   /* ★行間を少し詰め気味に（1.5〜1.6が読みやすいです） */
+  line-height: 1.5;
 }
 
 /* 画像 */
@@ -71,16 +70,35 @@ h1 {
 /* プロフィール */
 .profile {
   margin-top: 80px;
-  padding-top: 16px;
-  border-top: 1px solid #333;
+  padding-top: 24px;
+  border-top: 1px solid #222;
+}
+
+.profile-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-image img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%; /* 写真を丸く */
+  border: 1px solid #333;
+  display: block;
 }
 
 .profile-name {
   font-size: 15px;
-  margin-bottom: 4px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2px; /* 名前と説明を近づける */
 }
 
 .profile-text {
   font-size: 13px;
   color: #aaa;
+  margin: 0;
+  line-height: 1.4;
 }
