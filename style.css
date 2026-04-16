@@ -1,21 +1,139 @@
-<div class="profile">
-  <div class="profile-content">
-    <div class="profile-image-circle">
-      <img src="tohru_kashiwagi.webp" alt="柏木透">
-    </div>
-    <div class="profile-details">
-      <div class="profile-name">柏木透（かしわぎ とおる）</div>
-      <div class="profile-text">ライター。文化や芸術に関する取材・執筆を行う。</div>
-    </div>
-  </div>
+/* --- 全体レイアウト --- */
+body {
+  margin: 0;
+  background: #0a0a0a;
+  color: #eaeaea;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
 
-  <a href="maria_profile.html" class="profile-link-item">
-    <div class="profile-image-rect">
-      <img src="maria_abe_thumb.webp" alt="安倍まりあ">
-    </div>
-    <div class="profile-details">
-      <div class="profile-name">安倍まりあ プロフィール <span>&rsaquo;</span></div>
-      <div class="profile-text">本連載の著者。現代美術家としての活動詳細はこちら。</div>
-    </div>
-  </a>
-</div>
+.container {
+  max-width: 700px;
+  margin: 70px auto;
+  padding: 0 20px;
+}
+
+/* --- 見出し・導入 --- */
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.intro {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 50px;
+  white-space: pre-line;
+  line-height: 1.68;
+}
+
+.divider {
+  height: 1px;
+  background: #333;
+  margin: 50px 0;
+}
+
+/* --- 対話セクション --- */
+.question {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.answer {
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #ccc;
+  white-space: pre-line;
+  line-height: 1.5;
+}
+
+/* --- 本文内画像 --- */
+.image-block {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.8;
+}
+
+/* --- プロフィールセクション --- */
+.profile {
+  margin-top: 100px;
+  padding-top: 32px;
+  border-top: 1px solid #222;
+}
+
+/* 柏木さんのブロック：下のリンクとの間隔を広げました */
+.profile-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;            /* 画像とテキストの間隔 */
+  margin-bottom: 40px;  /* ★安倍さんリンクとの間の余白 */
+}
+
+/* 安倍さんのプロフィールリンク */
+.profile-link-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  background: #111;
+  padding: 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.profile-link-item:hover {
+  background: #1d1d1d;
+}
+
+/* 柏木さんの画像：元の50pxに戻しました */
+.profile-image-circle img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #333;
+  display: block;
+}
+
+/* 安倍さんの画像：横長四角形 */
+.profile-image-rect img {
+  width: 80px;          /* 横幅 */
+  height: 50px;         /* 高さは柏木さんに合わせて50px */
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid #333;
+  display: block;
+}
+
+/* プロフィール内テキスト：元のサイズを維持 */
+.profile-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.profile-name span {
+  font-weight: normal;
+  color: #666;
+  margin-left: 6px;
+}
+
+.profile-text {
+  font-size: 13px;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.4;
+}
