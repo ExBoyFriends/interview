@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background: #0a0a0a;
+  color: #eaeaea;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  max-width: 700px;
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 80px;
+}
+
+.intro {
+  font-size: 20px;
+  color: #ddd;
+  margin-bottom: 100px;
+}
+
+.divider {
+  height: 1px;
+  background: #333;
+  margin: 80px 0;
+}
+
+.question {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.answer {
+  margin-top: 14px;
+  color: #ccc;
+}
+
+.image-block {
+  margin: 120px 0;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.profile {
+  margin-top: 140px;
+  padding-top: 40px;
+  border-top: 1px solid #333;
+}
+
+.profile-name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-text {
+  font-size: 14px;
+  color: #aaa;
+}
