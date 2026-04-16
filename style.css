@@ -14,21 +14,22 @@ body {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 32px;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+  letter-spacing: 0.05em;
 }
 
 .subtitle {
-  font-size: 16px;
+  font-size: 14px;
   color: #aaa;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .intro {
-  font-size: 20px;
+  font-size: 17px;
   color: #ddd;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .divider {
