@@ -47,14 +47,14 @@ h1 {
 }
 
 .answer {
-  margin-top: 4px;
+  margin-top: 4px; /* 名前との間隔 */
   margin-bottom: 0;
   color: #ccc;
   white-space: pre-line;
-  line-height: 1.5;
+  line-height: 1.5; /* 行間を詰め気味に */
 }
 
-/* 画像 */
+/* 本文内の画像 */
 .image-block {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -67,33 +67,59 @@ h1 {
   opacity: 0.8;
 }
 
-/* プロフィール */
+/* プロフィール共通設定 */
 .profile {
   margin-top: 80px;
   padding-top: 24px;
   border-top: 1px solid #222;
 }
 
+/* 柏木透のプロフィール表示 */
 .profile-content {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-bottom: 20px; /* 安倍さんとの間隔 */
 }
 
+/* 安倍まりあのプロフィールリンク */
+.profile-link-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  background: #151515; /* わずかに背景を明るく */
+  padding: 12px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.profile-link-item:hover {
+  background: #222;
+}
+
+/* プロフィール画像 */
 .profile-image img {
   width: 50px;
   height: 50px;
   object-fit: cover;
-  border-radius: 50%; /* 写真を丸く */
+  border-radius: 50%;
   border: 1px solid #333;
   display: block;
 }
 
+/* プロフィール内の名前とテキスト */
 .profile-name {
   font-size: 15px;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 2px; /* 名前と説明を近づける */
+  margin-bottom: 2px;
+}
+
+.profile-name span {
+  font-weight: normal;
+  color: #666;
+  margin-left: 4px;
 }
 
 .profile-text {
