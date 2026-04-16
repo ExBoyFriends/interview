@@ -3,7 +3,7 @@ body {
   background: #0a0a0a;
   color: #eaeaea;
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
-  line-height: 1.7;
+  line-height: 1.65;
   letter-spacing: 0.02em;
 }
 
@@ -34,7 +34,7 @@ h1 {
   color: #ddd;
   margin-bottom: 60px;
   white-space: pre-line;
-  line-height: 1.8;
+  line-height: 1.72;
 }
 
 /* 区切り */
@@ -49,20 +49,20 @@ h1 {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  margin-top: 36px;
+  margin-top: 32px;
 }
 
 .answer {
-  margin-top: 10px;
+  margin-top: 4px;
   color: #ccc;
   white-space: pre-line;
-  line-height: 1.68;
+  line-height: 1.6;
 }
 
 /* 画像 */
 .image-block {
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 36px;
+  margin-bottom: 56px;
 }
 
 .image-block img {
@@ -74,14 +74,14 @@ h1 {
 
 /* プロフィール */
 .profile {
-  margin-top: 80px;
-  padding-top: 24px;
+  margin-top: 70px;
+  padding-top: 20px;
   border-top: 1px solid #333;
 }
 
 .profile-name {
   font-size: 15px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .profile-text {
