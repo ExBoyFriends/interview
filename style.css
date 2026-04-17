@@ -1,4 +1,3 @@
-/* --- 全体レイアウト --- */
 body {
   margin: 0;
   background: #0a0a0a;
@@ -14,7 +13,6 @@ body {
   padding: 0 20px;
 }
 
-/* --- 見出し・導入 --- */
 h1 {
   font-size: 28px;
   font-weight: 500;
@@ -36,7 +34,6 @@ h1 {
   margin: 50px 0;
 }
 
-/* --- 対話セクション --- */
 .question {
   font-size: 14px;
   font-weight: bold;
@@ -53,7 +50,6 @@ h1 {
   line-height: 1.5;
 }
 
-/* --- 本文内画像 --- */
 .image-block {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -73,15 +69,15 @@ h1 {
   border-top: 1px solid #222;
 }
 
-/* 柏木さんのブロック：下のリンクとの間隔を広げました */
+/* 柏木透の表示（元のサイズ感を維持） */
 .profile-content {
   display: flex;
   align-items: center;
-  gap: 16px;            /* 画像とテキストの間隔 */
-  margin-bottom: 40px;  /* ★安倍さんリンクとの間の余白 */
+  gap: 16px;
+  margin-bottom: 40px; /* ★下のリンクとの間の余白 */
 }
 
-/* 安倍さんのプロフィールリンク */
+/* 安倍まりあのリンク表示 */
 .profile-link-item {
   display: flex;
   align-items: center;
@@ -97,7 +93,7 @@ h1 {
   background: #1d1d1d;
 }
 
-/* 柏木さんの画像：元の50pxに戻しました */
+/* 柏木：丸画像 50px */
 .profile-image-circle img {
   width: 50px;
   height: 50px;
@@ -107,17 +103,16 @@ h1 {
   display: block;
 }
 
-/* 安倍さんの画像：横長四角形 */
+/* 安倍：横長四角画像 */
 .profile-image-rect img {
-  width: 80px;          /* 横幅 */
-  height: 50px;         /* 高さは柏木さんに合わせて50px */
+  width: 80px;
+  height: 50px;
   object-fit: cover;
   border-radius: 2px;
   border: 1px solid #333;
   display: block;
 }
 
-/* プロフィール内テキスト：元のサイズを維持 */
 .profile-name {
   font-size: 15px;
   font-weight: bold;
