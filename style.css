@@ -50,6 +50,14 @@ h1 {
   line-height: 1.5;
 }
 
+img {
+  pointer-events: none;       /* マウス操作（クリックやドラッグ）を無効化 */
+  user-select: none;          /* テキスト選択のように画像を選べないようにする */
+  -webkit-user-select: none;   /* Safari用 */
+  -moz-user-select: none;      /* Firefox用 */
+  -ms-user-select: none;       /* IE用 */
+}
+
 .image-block {
   margin-top: 40px;
   margin-bottom: 40px;
